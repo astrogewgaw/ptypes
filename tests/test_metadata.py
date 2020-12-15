@@ -159,20 +159,3 @@ class TestHdr(object):
             m.tohdr(tim)
             test = Metadata.fromhdr(tim)
             self.check_data(test)
-
-
-class TestGuppi(object):
-
-    """"""
-
-    def test_read(self) -> None:
-
-        """"""
-
-        pass
-
-    def test_write(self) -> None:
-
-        """"""
-
-        pass

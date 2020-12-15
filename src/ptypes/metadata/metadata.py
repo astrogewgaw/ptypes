@@ -7,16 +7,7 @@ from astropy import units as uu  # type: ignore
 from astropy.coordinates import SkyCoord  # type: ignore
 from typing import Any, Type, List, Dict, Tuple, TypeVar, Optional, Callable
 
-from .formats import (
-    infread,
-    infwrite,
-    sigread,
-    sigwrite,
-    gupread,
-    gupwrite,
-    fitsread,
-    fitswrite,
-)
+from .formats import infread, infwrite, sigread, sigwrite
 
 
 M = TypeVar("M", bound="Metadata")
